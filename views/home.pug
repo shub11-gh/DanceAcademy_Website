@@ -1,0 +1,46 @@
+extends base.pug
+
+block style 
+    style   
+        include ../static/style.css
+    
+block content
+    section#introSection
+        div Welcome to Royal Dance Academy 
+        div.small Dance to Live,Live to Dance!
+
+    section#visionSection
+        h2 Our Vision
+
+        div.cards
+            h3 Perfect your Moves 
+            div.card-box
+                div.card-img
+                    img(src="../static/images/c2.png")
+                div.card-content
+                | This is the best dance academy in the country.
+
+        div.cards
+            h3 Learn from Experts 
+            div.card-box
+                div.card-img
+                    img(src="../static/images/c1.png")
+                div.card-content
+                | This is the best dance academy in the country.
+
+        div.cards
+            h3 Showcase your Talent
+
+            div.card-box
+                div.card-img
+                    img(src="../static/images/c3.png")
+                div.card-content
+                | This is the best dance academy in the country.
+
+    section#sponsorSection
+        h2 Our Sponsors
+        div.sponsor-box
+            img(src="../static/images/hpLogo.png", alt="sponsors",class="round")
+            img(src="../static/images/skypeLogo.png", alt="sponsors",style="height:230px")
+            img(src="../static/images/microsoftLogo.png", alt="sponsors",class="round")
+            img(src="../static/images/appleLogo.png", alt="sponsors",class="round")

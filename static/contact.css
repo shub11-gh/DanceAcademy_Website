@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    background: #afbdb0;
+    background: radial-gradient(circle, rgba(175, 189, 176, 0.98) 45%, rgba(71, 69, 69, 1) 100%);
+}
+.container {
+    min-height: 85vh;
+    margin-top: 10px;   
+}
+
+.container h1 {
+    font-family: "Amarante", serif;
+    text-align: center;
+    margin: 12px 0;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    width: 65%;
+    padding: 10px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.btn {
+    font-family: "Tomorrow", sans-serif;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 5px 0;
+    width: 50%;
+    cursor: pointer;
+    border: 2px solid rgba(80, 77, 77, 0.822);
+    outline: none;
+    padding: 10px;
+}

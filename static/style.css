@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #000000;
+}
+
+#navbar ul li {
+    list-style: none;
+    padding: 15px 15px;
+}
+
+#navbar ul li a {
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-family: "Tomorrow", sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: rgb(163, 156, 156);
+}
+
+#introSection {
+    background: url('https://png.pngtree.com/thumb_back/fh260/background/20210312/pngtree-dark-purple-light-effect-background-circular-illustration-image_582370.jpg')center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4e2a1;
+    font-family: "Chicle", serif;
+    font-weight: lighter;
+    font-size: 50px;
+    height: 330px;
+    color: aliceblue;
+}
+
+#logo img {
+    height: 45px;
+    filter: invert(1);
+}
+
+#logo span {
+    color: white;
+    font-family: "Chicle", serif;
+    font-size: 2rem;
+}
+
+#logo {
+    margin-right: 12px;
+}
+
+#introSection div.small {
+    padding: 8px;
+    font-size: 2rem;
+
+}
+
+#visionSection {
+    display: block;
+    background-color: #ffffff6e;
+    height: 330px;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#visionSection h2 {
+    font-family: "Amarante", serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 200px;
+    width: 32.1%;
+    margin: 5px;
+}
+
+.cards h3 {
+    text-align: center;
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 500;
+    margin: 0px 10px;
+    margin-top: 10px;
+}
+
+.card-img img {
+    height: 150px;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.card-content {
+    padding: 5px;
+}
+
+#sponsorSection {
+    background: #d5db91;
+    background: radial-gradient(circle, rgba(213, 219, 145, 0.98) 10%, rgba(204, 124, 45, 0.97) 100%);
+    height: 330px;
+}
+
+#sponsorSection h2 {
+    font-family: "Amarante", serif;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+.sponsor-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 20px;
+}
+
+.sponsor-box img {
+    height: 150px;
+    width: 250px;
+    margin: 30px;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25px;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    margin: auto;
+    font-family: sans-serif;
+
+}
