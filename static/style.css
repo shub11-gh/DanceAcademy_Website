@@ -163,3 +163,13 @@ footer {
     font-family: sans-serif;
 
 }
+
+@media screen and (max-width:1260) {
+    #visionSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+    
