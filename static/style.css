@@ -164,12 +164,38 @@ footer {
 
 }
 
-@media screen and (max-width:1260) {
+@media screen and (max-width:1260px ) {
+    #introSection{
+        height: 450px;
+    }
     #visionSection{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: 660px;
+        margin-bottom: 20px;
     }
+    #sponsorSection{
+        height: 450px;
+    }
+    .cards{
+        width: 90%;
+    }
+
+    .cards h3{
+        font-size: 1.8rem;
+    }
+
+    .card-box {
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        font-size: 2rem;
+        font-family: sans-serif;
+        font-weight: 60;
+    }
+
+
 }
     
